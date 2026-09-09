@@ -12,6 +12,9 @@ canvas {
   margin: 20px;
   border-radius: 15px;
   border: 5px solid rgba(118, 0, 233, 0.375);
+  background-image: url("images/sewer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img {

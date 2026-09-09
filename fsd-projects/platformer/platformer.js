@@ -27,26 +27,26 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-   toggleGrid();
+   //toggleGrid();
 
 
     // TODO 2 - Create Platforms
-    createPlatform(900,200,100,0.01,"Red");
-    createPlatform(400,600,0.25,50,"Yellow");
-    createPlatform(100,500,150, 20,"Blue");
-    createPlatform(500,400,100,50,"Purple");
-    createPlatform(900,400,100,50,"Cyan");
-    createPlatform(300,200,100,50,"Orange");
+    createPlatform(900,200,100,0.01,"light grey");
+    createPlatform(400,600,0.25,50,"light grey");
+    createPlatform(100,500,150, 20,"light grey");
+    createPlatform(500,400,100,50,"light grey");
+    createPlatform(900,400,100,50,"light grey");
+    createPlatform(300,200,100,50,"light grey");
     createPlatform(100,100,0.1,500,);
-    createPlatform(1200,300,100,50,"white");
-    createPlatform(600,175,100,0.01,"white");
+    createPlatform(1200,300,100,50,"light grey");
+    createPlatform(600,175,100,0.01,"light grey");
 
 
     // TODO 3 - Create Collectables
-    createCollectable("diamond", 200, 170,);
-    createCollectable("diamond", 1225, 250,);
-    createCollectable("diamond", 1300, 700,);
-    createCollectable("diamond", 750, 100,);
+    createCollectable("waste", 200, 170,);
+    createCollectable("waste", 1225, 250,);
+    createCollectable("waste", 1300, 700,);
+    createCollectable("waste", 750, 100,);
 
 
 
