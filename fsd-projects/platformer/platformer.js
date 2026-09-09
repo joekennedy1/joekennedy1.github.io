@@ -27,7 +27,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-   //toggleGrid();
+   toggleGrid();
 
 
     // TODO 2 - Create Platforms
@@ -43,10 +43,11 @@ $(function () {
 
 
     // TODO 3 - Create Collectables
-    createCollectable("waste", 200, 170,);
+    createCollectable("waste", 350, 150,);
     createCollectable("waste", 1225, 250,);
     createCollectable("waste", 1300, 700,);
     createCollectable("waste", 750, 100,);
+    createCollectable("waste", 200, 470,);
 
 
 
